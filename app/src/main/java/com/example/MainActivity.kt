@@ -11,6 +11,10 @@ import com.example.ui.screens.MainSamplerScreen
 import com.example.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
+  override fun getAttributionTag(): String? {
+    return "microphone"
+  }
+
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     enableEdgeToEdge()
