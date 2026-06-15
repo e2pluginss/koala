@@ -1,0 +1,6 @@
+{
+  "name": "Samurai Sampler",
+  "description": "High-fidelity professional multi-pad sampler with Samurai wave editor, loop sequencer, keyboard mode, and performance FX.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
